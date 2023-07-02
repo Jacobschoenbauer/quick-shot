@@ -1,0 +1,35 @@
+{
+
+"about": {
+
+    "title": "Dave's New Look",
+    "description": "Best Place in town ",
+    "telephone": "651-500-1758",
+    "slogan": "Your time is valuable, let us take care of your lawn.",
+    "email": "jhwt65@gmail.com",
+    "facebook": "https://www.facebook.com/jacob.schoenbauer",
+    "instagram": ""
+},
+
+
+"product":[
+    "Lawn Mowing",
+    "Tree and Bush Trimming ",
+    "Yard Clearing ",
+    "Spring and Fall clean up "
+],
+"images":[
+   {"alt":"Amazing Lawn Care", "src":"./pic/amazinglawn.JPEG" },
+   {"alt":"Beautiful Lawn", "src":"./pic/landscapehome.JPEG" },
+   {"alt":"Best Landsacping", "src":"./pic/amazinglawn.JPEG" },
+   {"alt":"Great Customer Service", "src":"./pic/landscapehome.JPEG" }
+    
+],
+"logo":[
+ {"alt":"Lawn Mowing","src":"./pic/Dave-new-logo.png"}
+],
+
+"homeImage":[
+    {"alt":"Great Lawn Care Team","src":"./pic/familyowned.JPEG"}
+   ]
+}

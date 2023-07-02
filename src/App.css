@@ -1,0 +1,86 @@
+.main {
+  background-color: #62AF2C;
+}
+.mainImage,
+.food1 {
+  height: 200px;
+}
+.mtitle {
+  color: #C5D1BC;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 80px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #323B2C;
+  flex-wrap: wrap;
+}
+.navgate {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+}
+.home,
+.about,
+.location,
+.about,
+.specials,
+.num,
+.contact {
+  margin: 15px;
+  font-size: 20px;
+  color: #fbee0f;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.phone {
+  color: #fbee0f !important;
+}
+
+.header-images {
+  width: 100%;
+  height:100%;
+}
+.fpics {
+  display: flex;
+
+  justify-content: center;
+}
+.logo {
+  width: 150px;
+  border-radius: 50%;
+}
+.home-image{
+  
+
+}
+/*media to change for differnt screens*/
+@media screen and (max-width: 1000px) {
+  .fpics {
+    display: none;
+  }
+  .navbox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navgate {
+    display: flex;
+  }
+  .mtitle {
+    display: none;
+  }
+  .logo{
+    width: 200px;
+  }
+}
+

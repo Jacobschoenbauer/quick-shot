@@ -1,0 +1,42 @@
+{
+
+    "about": {
+        
+        "contact": "",
+        "address": {
+            "street": "  ",
+            "city": "",
+            "state": "",
+            "zip": "",
+            "google-api": "",
+            "map-url": ""
+        },
+        "title": "",
+        "description": " ",
+        "telephone": "",
+        "location": "",
+        "email": "",
+        "facebook": "",
+        "instagram": ""
+    },
+    
+    
+    "menu":[
+        " ",
+        " ",
+        " ",
+        " "
+    ],
+    "images":[
+       {"alt":"", "src":"" },
+       {"alt":"", "src":"" },
+       {"alt":"", "src":"" },
+       {"alt":"", "src":"" }
+        
+    ],
+    "logo":[
+     {"alt":"","src":""}
+    ]
+    
+    
+    }
