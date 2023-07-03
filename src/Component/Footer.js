@@ -1,7 +1,20 @@
-import React from "react";
+import React, { Component } from 'react';
+import data from "../Data/Data.json";
+const faceBook = data.faceBook.map(({ alt, src }) => (
+  <div>
+    <img className="faceBook" src={src} alt={alt} />
+  </div>
+));
+export default class Footer extends Component {
+  render() {
 
-function Footer() {
-  return (<div>Facebook</div>);
+    return <div>
+      <div className="footer">
+      <a href="https://www.facebook.com/profile.php?id=100092271052712">
+    {faceBook}
+  </a></div>
+  </div>;
+      
+    
+  }
 }
-
-export default Footer;

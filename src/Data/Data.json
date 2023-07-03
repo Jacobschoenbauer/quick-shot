@@ -31,5 +31,9 @@
 
 "homeImage":[
     {"alt":"Great Lawn Care Team","src":"./pic/familyowned.JPEG"}
+   ],
+"faceBook":[
+    {"alt":"Great Facebook","src":"./pic/facebooklogo.png"}
    ]
+
 }

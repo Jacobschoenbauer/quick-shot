@@ -60,9 +60,13 @@
   width: 150px;
   border-radius: 50%;
 }
-.home-image{
-  
+.faceBook{
+  border-radius: 90%;
 
+  width:5%;
+}
+.footer{
+  display: flex
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
