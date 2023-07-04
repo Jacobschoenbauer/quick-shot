@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { Component } from "react";
+import data from "../Data/Data.json";
 import "../App.css"
-const Contact = () => {
+export default class Contact extends Component {
+    render() {
+      const {
+        about: {  telephone, email },
+      } = data;
+  
     
     return (
         <div>
-         Call me when you want me  
+         <a className="phone" href="tel:651-500-1758">
+                {telephone}
+              </a>
+              <a className="email" href="mailto:davesnewlookservices@gmail.com">
+                {email}
+              </a> 
         </div>
     )
 }
-export default Contact;
+}

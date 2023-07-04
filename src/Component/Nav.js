@@ -31,11 +31,12 @@ export default class Nav extends Component {
             <Link className="contact" to="/contact">
               Contact
             </Link>
-          </div>
-          <div className="num">
-            <a className="phone" href="tel:651-500-1758">
-              {telephone}
-            </a>
+
+            <div className="num">
+              <a className="phone" href="tel:651-500-1758">
+                {telephone}
+              </a>
+            </div>
           </div>
         </section>
       </div>
