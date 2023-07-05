@@ -21,7 +21,7 @@ export default class Home extends Component {
           <section className="home-product">
             <div className="service">{product1}</div>
             <div className="service">{product2}</div>
-            <div className="service5">{product5}</div>
+            <div className="service">{product5}</div>
           </section>
           <section className="home-center">
             <div className="home-image">{homeImage}</div>
@@ -32,7 +32,7 @@ export default class Home extends Component {
           </section>
           
         </div>
-        
+       
       </div>
     );
   }
