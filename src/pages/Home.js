@@ -11,16 +11,28 @@ export default class Home extends Component {
   render() {
     const {
       about: { slogan },
-      product,
+      product: { product1, product2, product3, product4, product5 },
     } = data;
 
     return (
-      <div className="home-flex">
+      <div>
         <h1 className="slogan">{slogan}</h1>
-        <div className="home-image">{homeImage}</div>
-        <section className="home-product">
-          <div>{product}</div>
-        </section>
+        <div className="home-flex">
+          <section className="home-product">
+            <div className="service">{product1}</div>
+            <div className="service">{product2}</div>
+            <div className="service5">{product5}</div>
+          </section>
+          <section className="home-center">
+            <div className="home-image">{homeImage}</div>
+          </section>
+          <section className="home-product">
+            <div className="service">{product3}</div>
+            <div className="service">{product4}</div>
+          </section>
+          
+        </div>
+        
       </div>
     );
   }

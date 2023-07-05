@@ -12,13 +12,13 @@
 },
 
 
-"product":[
-    "Lawn Mowing",
-    "Tree and Bush Trimming ",
-    "Yard Clearing ",
-    "Spring and Fall clean up ",
-    "Snow Plowing"
-],
+"product":{
+   "product1": "Lawn Mowing",
+   "product2":"Tree and Bush Trimming ",
+   "product3":"Yard Clearing ",
+   "product4":"Spring and Fall clean up ",
+   "product5":"Snow Plowing"
+},
 "images":[
    {"alt":"Amazing Lawn Care", "src":"./pic/amazinglawn.JPEG" },
    {"alt":"Beautiful Lawn", "src":"./pic/landscapehome.JPEG" },

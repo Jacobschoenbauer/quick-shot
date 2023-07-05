@@ -7,7 +7,7 @@ export default class About extends Component {
     } = data;
 
     return (
-      <div>{product}</div>
+      <div></div>
     )
       
     
