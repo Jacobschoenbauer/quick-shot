@@ -62,12 +62,13 @@
   border-radius: 50%;
 }
 .faceBook {
-  border-radius: 90%;
+  border-radius: 50%;
+  width: 60%;
 
-  width: 5%;
 }
 .footer {
   display: flex;
+  justify-content: center
 }
 .num{
   display: flex;

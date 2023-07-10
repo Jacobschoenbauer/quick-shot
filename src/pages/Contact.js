@@ -16,6 +16,7 @@ export default class Contact extends Component {
               <a className="email" href="mailto:davesnewlookservices@gmail.com">
                 {email}
               </a> 
+              
         </div>
     )
 }
