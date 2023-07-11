@@ -112,6 +112,10 @@
 .service{
   margin: 20px;
 }
+.contact-flex{
+  display: flex;
+  
+}
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
   .fpics {
