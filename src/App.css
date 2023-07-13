@@ -64,57 +64,54 @@
 .faceBook {
   border-radius: 50%;
   width: 60%;
-
 }
 .footer {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
-.num{
-  display: flex;
+.facebook-footer{
+  text-align: center;
 
 }
-.home-flex{
+.num {
   display: flex;
- 
-
 }
-.slogan{
+.home-flex {
+  display: flex;
+  justify-content: center;
+}
+.slogan {
   color: #c5d1bc;
   font-size: 40px;
   text-align: center;
-   
+  text-shadow: 2px 2px #323b2c;
 }
-.service5{
-  color: #c5d1bc;
-  font-size: 30px;
-  text-align: center;
 
-}
+
 .home-image{
-  
+ 
 }
-.home-product{
+.home-product {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:15%;
+  margin: 15%;
   font-size: 30px;
   color: #c5d1bc;
-
+  text-shadow: 2px 2px #323b2c
 }
-.home-center{
+.home-center {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.service{
+.service {
   margin: 20px;
 }
-.contact-flex{
+.contact-flex {
   display: flex;
-  
+  flex-direction: column;
+  align-items: center;
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
@@ -134,9 +131,23 @@
   .logo {
     width: 200px;
   }
-  .home-flex{
+  .home-flex {
     display: flex;
-   flex-direction: column;
-  
+    flex-direction: column;
   }
+}
+@keyframes example {
+  0%   {background-color:#c5d1bc; left:0px; top:0px;}
+  25%  {background-color:#323b2c; left:200px; top:0px;}
+  50%  {background-color:black; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:#fbee0f; left:0px; top:0px;}
+}
+.home-image {
+  border-radius: 20%;
+  margin: 10px;
+  background-color: #323b2c;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
 }

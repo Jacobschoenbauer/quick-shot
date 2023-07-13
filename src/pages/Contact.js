@@ -9,17 +9,17 @@ export default class Contact extends Component {
 
     return (
       <div>
-       <article className="contact-flex">
-        <section className="contact-phone">
-          <a className="phone" href="tel:651-500-1758">
-            {telephone}
-          </a>
-        </section>
-        <section className="contact-email">
-        <a className="email" href="mailto:davesnewlookservices@gmail.com">
-          {email}
-        </a>
-        </section>
+        <article className="contact-flex">
+          <section className="contact-phone">
+            <a className="phone" href="tel:651-500-1758">
+              {telephone}
+            </a>
+          </section>
+          <section className="contact-email">
+            <a className="email" href="mailto:davesnewlookservices@gmail.com">
+              {email}
+            </a>
+          </section>
         </article>
       </div>
     );

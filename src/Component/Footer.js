@@ -10,7 +10,7 @@ export default class Footer extends Component {
 
     return <div>
       <div className="footer">
-      <a href="https://www.facebook.com/profile.php?id=100092271052712">
+      <a className="facebook-footer" href="https://www.facebook.com/profile.php?id=100092271052712">
     {faceBook}
   </a></div>
   </div>;
