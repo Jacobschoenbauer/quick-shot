@@ -8,6 +8,7 @@
     "slogan": "Your time is valuable, let us take care of your lawn.",
     "email": "davesnewlookservices@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=100092271052712",
+    "introContact":"Contact us any time. We are ready willing and able to take care of your year round lawn care. Call, Text or Email. ",
     "instagram": ""
 },
 
@@ -17,7 +18,8 @@
    "product2":"Tree and Bush Trimming ",
    "product3":"Yard Clearing ",
    "product4":"Spring and Fall clean up ",
-   "product5":"Snow Plowing"
+   "product5":"Snow Plowing",
+   "product6":"And Much More"
 },
 "images":[
    {"alt":"Amazing Lawn Care", "src":"./pic/amazinglawn.JPEG" },
@@ -34,7 +36,13 @@
     {"alt":"Great Lawn Care Team","src":"./pic/familyowned.JPEG"}
    ],
 "faceBook":[
-    {"alt":"Great Facebook","src":"./pic/facebooklogo.png"}
-   ]
+    {"alt":"Great Facebook","src":"./pic/facebook-logo.png"}
+   ],
+"emailLogo":[
+      {"alt":"Great Facebook","src":"./pic/emaillogo3.avif"}
+     ],
+"phoneLogo":[
+      {"alt":"Great Facebook","src":"./pic/Phone-logo3.png"}
+     ]
 
 }

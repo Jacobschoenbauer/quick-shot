@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import data from "../Data/Data.json";
 const faceBook = data.faceBook.map(({ alt, src }) => (
   <div>
@@ -7,14 +7,17 @@ const faceBook = data.faceBook.map(({ alt, src }) => (
 ));
 export default class Footer extends Component {
   render() {
-
-    return <div>
-      <div className="footer">
-      <a className="facebook-footer" href="https://www.facebook.com/profile.php?id=100092271052712">
-    {faceBook}
-  </a></div>
-  </div>;
-      
-    
+    return (
+      <div>
+        <div className="footer">
+          <a
+            className="facebook-footer"
+            href="https://www.facebook.com/profile.php?id=100092271052712"
+          >
+            {faceBook}
+          </a>
+        </div>
+      </div>
+    );
   }
 }
