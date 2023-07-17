@@ -131,13 +131,16 @@
   color: #c5d1bc;
   padding: 30px;
 }
-.aboutphoto{
-  width: 100px;
-  
-  
-  
-  
+.aboutPhoto{
+  width: 150px;
+  height: 150px;
 }
+  
+  
+  
+  
+  
+
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
   .navbox {

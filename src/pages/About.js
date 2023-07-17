@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import data from "../Data/Data.json";
+import "../App.css";
 const product1Photo = data.product.product1Photo.map(({ alt, src }) => (
   <div>
     <img className="aboutPhoto" src={src} alt={alt} />
@@ -7,27 +8,27 @@ const product1Photo = data.product.product1Photo.map(({ alt, src }) => (
 ));
 const product2Photo = data.product.product2Photo.map(({ alt, src }) => (
   <div>
-    <img className="" src={src} alt={alt} />
+    <img className="aboutPhoto" src={src} alt={alt} />
   </div>
 ));
 const product3Photo = data.product.product3Photo.map(({ alt, src }) => (
   <div>
-    <img className="" src={src} alt={alt} />
+    <img className="aboutPhoto" src={src} alt={alt} />
   </div>
 ));
 const product4Photo = data.product.product4Photo.map(({ alt, src }) => (
   <div>
-    <img className="" src={src} alt={alt} />
+    <img className="aboutPhoto" src={src} alt={alt} />
   </div>
 ));
 const product5Photo = data.product.product5Photo.map(({ alt, src }) => (
   <div>
-    <img className="" src={src} alt={alt} />
+    <img className="aboutPhoto" src={src} alt={alt} />
   </div>
 ));
 const product6Photo = data.product.product6Photo.map(({ alt, src }) => (
   <div>
-    <img className="" src={src} alt={alt} />
+    <img className="aboutPhoto" src={src} alt={alt} />
   </div>
 ));
 export default class About extends Component {
