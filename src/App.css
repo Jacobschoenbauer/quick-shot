@@ -164,6 +164,17 @@ flex-wrap: wrap;
 
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
+  .slogan{
+    font-size: 200%;
+  }
+  .service{
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  .home-product{
+    margin:18%;
+  }
   .navbox {
     flex-direction: column;
     align-items: center;
