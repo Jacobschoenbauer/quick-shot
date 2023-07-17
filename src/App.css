@@ -119,23 +119,44 @@
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
   font-size: 30px;
+  text-align: center;
 }
 .about-flex {
   display: flex;
   justify-content: space-evenly;
 }
 .about-story {
-  width: 400px;
+  height: 100%;
+  width: 300px;
   font-size: 20px;
   background-color: #323b2c;
   color: #c5d1bc;
-  padding: 30px;
+  padding: 2%;
+  margin: 0px;
+  
 }
 .aboutPhoto{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
-  
+.about-product{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+} 
+.aboutProduct{
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  font-size: 20px;
+}
+.about-photo-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+} 
   
   
   

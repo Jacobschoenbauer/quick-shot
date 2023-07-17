@@ -43,18 +43,30 @@ export default class About extends Component {
         <article className="about-flex">
           <section className="about-story">{about}</section>
           <section className="about-product">
-            <div className="aboutProduct">{product1}</div>
-            <div className="aboutProduct-photo1">{product1Photo}</div>
-            <div className="aboutProduct">{product2}</div>
-            <div className="aboutProduct-photo2">{product2Photo}</div>
-            <div className="aboutProduct">{product3}</div>
-            <div className="aboutProduct-photo3">{product3Photo}</div>
-            <div className="aboutProduct">{product4}</div>
-            <div className="aboutProduct-photo4">{product4Photo}</div>
-            <div className="aboutProduct">{product5}</div>
-            <div className="aboutProduct-photo5">{product5Photo}</div>
-            <div className="aboutProduct">{product6}</div>
-            <div className="aboutProduct-photo6">{product6Photo}</div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product1}</div>
+              <div className="aboutProduct-photo1">{product1Photo}</div>
+            </div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product2}</div>
+              <div className="aboutProduct-photo2">{product2Photo}</div>
+            </div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product3}</div>
+              <div className="aboutProduct-photo3">{product3Photo}</div>
+            </div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product4}</div>
+              <div className="aboutProduct-photo4">{product4Photo}</div>
+            </div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product5}</div>
+              <div className="aboutProduct-photo5">{product5Photo}</div>
+            </div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product6}</div>
+              <div className="aboutProduct-photo6">{product6Photo}</div>
+            </div>
           </section>
         </article>
       </div>
