@@ -21,16 +21,18 @@ export default class Contact extends Component {
     return (
       <div>
         <article className="contact-flex">
-          <section className="intro-contact">{introContact}</section>
+          <section className="intro-contact"><h3>{introContact}</h3></section>
           <section className="contact-phone">
             <a className="phone contactImage" href="tel:651-500-1758">
               {phoneLogo}
             </a>
+            <div>Phone</div>
           </section>
           <section className="contact-email contactImage">
             <a className="email" href="mailto:davesnewlookservices@gmail.com">
               {emailLogo}
             </a>
+            <div>Email</div>
           </section>
         </article>
       </div>

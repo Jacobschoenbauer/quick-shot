@@ -1,35 +1,56 @@
 {
 
 "about": {
-
     "title": "Dave's New Look",
     "description": "Best Place in town ",
     "telephone": "651-500-1758",
-    "slogan": "Your time is valuable, let us take care of your lawn.",
+    "slogan": "Your time is valuable, let us take care of your lawn and snow removal needs.",
     "email": "davesnewlookservices@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=100092271052712",
-    "introContact":"Contact us any time. We are ready willing and able to take care of your year round lawn care. Call, Text or Email. ",
+    "introContact":"Contact us any time. We are ready willing and able to take care of your year round lawn care needs. Call, Text or Email. ",
+    "about":"We are a family owned business that is looking to take care of all your lawn and snow removal needs. We are willing to do what it takes to make you happy and ready to show off your home or buisness. There is no hassel here we come to your loction and make it clean and beutiful for all to see. We will work with you year round with all of your out door problems. We can help you give your yard a new look. ",
     "instagram": ""
 },
 
 
 "product":{
    "product1": "Lawn Mowing",
-   "product2":"Tree and Bush Trimming ",
-   "product3":"Yard Clearing ",
-   "product4":"Spring and Fall clean up ",
-   "product5":"Snow Plowing",
-   "product6":"And Much More"
+   "product1Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/philipmowinglawn.jpg"}
+     ],
+   "product2":"Bush Trimming ",
+   "product2Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/philipyardclean.jpg"}
+     ],
+   "product3":"Spring and Fall Clean up ",
+   "product3Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/philipcleaning.jpg"}
+     ],
+   "product4":"Snow Plowing ",
+   "product4Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/trucksnow.png"}
+     ],
+   "product5":"Sidewalk Shoveling",
+   "product5Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/philipshoveling.jpg"}
+     ],
+   "product6":"Sidewalk and Driveway Salting",
+   "product6Photo":[
+      {"alt":"Lawn Mowing","src":"./pic/philipsaltlaying.jpg"}
+     ]
 },
 "images":[
-   {"alt":"Amazing Lawn Care", "src":"./pic/amazinglawn.JPEG" },
-   {"alt":"Beautiful Lawn", "src":"./pic/landscapehome.JPEG" },
-   {"alt":"Best Landsacping", "src":"./pic/amazinglawn.JPEG" },
-   {"alt":"Great Customer Service", "src":"./pic/landscapehome.JPEG" }
+   {"alt":"Beautiful Lawn Care in Hugo", "src":"./pic/anotherimagebigdavejob.jpg" },
+   {"alt":"Best Snow plower in Hugo", "src":"./pic/trucksnow.png" },
+   {"alt":"Beautiful Lawn Care in Hugo", "src":"./pic/landscapehome.JPEG" },
+   {"alt":"Amazing Lawn Care in Hugo", "src":"./pic/amazinglawn.JPEG" }
+   
+  
+  
     
 ],
 "logo":[
- {"alt":"Lawn Mowing","src":"./pic/Dave-new-logo.png"}
+ {"alt":"Lawn Mowing","src":"./pic/Davesnewlook2logo.png"}
 ],
 
 "homeImage":[
