@@ -28,7 +28,7 @@
      ],
    "product4":"Snow Plowing ",
    "product4Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/trucksnow.png"}
+      {"alt":"Lawn Mowing","src":"./pic/snowplowingtruck.png"}
      ],
    "product5":"Sidewalk Shoveling",
    "product5Photo":[
@@ -41,7 +41,7 @@
 },
 "images":[
    {"alt":"Beautiful Lawn Care in Hugo", "src":"./pic/anotherimagebigdavejob.jpg" },
-   {"alt":"Best Snow plower in Hugo", "src":"./pic/trucksnow.png" },
+   {"alt":"Best Snow plower in Hugo", "src":"./pic/snowplowingtruck.png" },
    {"alt":"Beautiful Lawn Care in Hugo", "src":"./pic/landscapehome.JPEG" },
    {"alt":"Amazing Lawn Care in Hugo", "src":"./pic/amazinglawn.JPEG" }
    
