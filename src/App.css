@@ -170,7 +170,7 @@ flex-wrap: wrap;
   .service{
     text-align: center;
     font-size: 30px;
-    
+
   }
   .home-product{
     margin:18%;
@@ -194,6 +194,11 @@ flex-wrap: wrap;
   }
   .facebook-footer {
     width: 300px;
+  }
+  .about-flex{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
   }
 }
 @keyframes example {
