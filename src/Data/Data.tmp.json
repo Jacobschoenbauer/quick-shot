@@ -1,42 +1,68 @@
 {
 
     "about": {
-        
-        "contact": "",
-        "address": {
-            "street": "  ",
-            "city": "",
-            "state": "",
-            "zip": "",
-            "google-api": "",
-            "map-url": ""
-        },
         "title": "",
-        "description": " ",
         "telephone": "",
-        "location": "",
+        "slogan": "",
         "email": "",
         "facebook": "",
+        "introContact":"",
+        "about":"",
         "instagram": ""
     },
     
     
-    "menu":[
-        " ",
-        " ",
-        " ",
-        " "
-    ],
+    "product":{
+       "product1": "",
+       "product1Photo":[
+          {"alt":"","src":""}
+         ],
+       "product2":"",
+       "product2Photo":[
+          {"alt":"","src":""}
+         ],
+       "product3":"",
+       "product3Photo":[
+          {"alt":"","src":""}
+         ],
+       "product4":" ",
+       "product4Photo":[
+          {"alt":"","src":""}
+         ],
+       "product5":"",
+       "product5Photo":[
+          {"alt":"","src":""}
+         ],
+       "product6":"",
+       "product6Photo":[
+          {"alt":"","src":""}
+         ]
+    },
     "images":[
        {"alt":"", "src":"" },
        {"alt":"", "src":"" },
        {"alt":"", "src":"" },
        {"alt":"", "src":"" }
+       
+      
+      
         
     ],
     "logo":[
      {"alt":"","src":""}
-    ]
+    ],
     
+    "homeImage":[
+        {"alt":"","src":""}
+       ],
+    "faceBook":[
+        {"alt":"","src":""}
+       ],
+    "emailLogo":[
+          {"alt":"","src":""}
+         ],
+    "phoneLogo":[
+          {"alt":"","src":""}
+         ]
     
     }
