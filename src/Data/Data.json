@@ -26,17 +26,17 @@
    "product3Photo":[
       {"alt":"Lawn Mowing","src":"./pic/philipcleaning.jpg"}
      ],
-   "product4":"Snow Plowing ",
+   "product4":"Snowplowing ",
    "product4Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/snowplowingtruck.png"}
+      {"alt":"Great Snowplowing","src":"./pic/snowplowingtruck.png"}
      ],
    "product5":"Sidewalk Shoveling",
    "product5Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/philipshoveling.jpg"}
+      {"alt":"Shovels sidewalk","src":"./pic/philipshoveling.jpg"}
      ],
    "product6":"Sidewalk and Driveway Salting",
    "product6Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/philipsaltlaying.jpg"}
+      {"alt":"Salting","src":"./pic/philipsaltlaying.jpg"}
      ]
 },
 "images":[
@@ -60,10 +60,10 @@
     {"alt":"Great Facebook","src":"./pic/facebook-logo.png"}
    ],
 "emailLogo":[
-      {"alt":"Great Facebook","src":"./pic/emaillogo3.avif"}
+      {"alt":"Great Lawn care","src":"./pic/emaillogo3.avif"}
      ],
 "phoneLogo":[
-      {"alt":"Great Facebook","src":"./pic/Phone-logo3.png"}
+      {"alt":"Best snow plow","src":"./pic/Phone-logo3.png"}
      ]
 
 }
