@@ -15,7 +15,7 @@ const emailLogo = data.emailLogo.map(({ alt, src }) => (
 export default class Contact extends Component {
   render() {
     const {
-      about: { introContact },
+      about: { introContact, telephone, email  },
     } = data;
 
     return (
@@ -23,16 +23,16 @@ export default class Contact extends Component {
         <article className="contact-flex">
           <section className="intro-contact"><h3>{introContact}</h3></section>
           <section className="contact-phone">
-            <a className="phone contactImage" href="tel:651-500-1758">
+            <a className="phone" href="tel:651-500-1758">
               {phoneLogo}
             </a>
-            <div>Phone</div>
+            <div>{telephone}</div>
           </section>
-          <section className="contact-email contactImage">
+          <section className="contact-email">
             <a className="email" href="mailto:davesnewlookservices@gmail.com">
               {emailLogo}
             </a>
-            <div>Email</div>
+            <div>{email}</div>
           </section>
         </article>
       </div>
