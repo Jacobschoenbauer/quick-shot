@@ -1,7 +1,7 @@
- html{
+html {
   margin: 0px;
   padding: 0px;
- }
+}
 .main {
   background-color: #62af2c;
 }
@@ -19,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   background-color: #323b2c;
-  flex-wrap: wrap;
 }
 .navgate {
   display: flex;
@@ -30,6 +29,8 @@
 }
 .nav {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .home,
 .about,
@@ -82,8 +83,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
 .slogan {
   color: #c5d1bc;
@@ -139,48 +138,40 @@
   color: #c5d1bc;
   padding: 2%;
   margin: 0px;
-  
 }
-.aboutPhoto{
+.aboutPhoto {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-.about-product{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-
-} 
-.aboutProduct{
+.about-product {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.aboutProduct {
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
   font-size: 20px;
 }
-.about-photo-section{
+.about-photo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
-
-} 
-  
-  
-  
-  
+}
 
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
-  .slogan{
+  .slogan {
     font-size: 200%;
   }
-  .service{
+  .service {
     text-align: center;
     font-size: 30px;
-
   }
-  .home-product{
-    margin:18%;
+  .home-product {
+    margin: 18%;
   }
   .navbox {
     flex-direction: column;
@@ -192,6 +183,9 @@ flex-wrap: wrap;
   .mtitle {
     display: none;
   }
+  .nav{
+    flex-direction: column;
+  }
   .logo {
     width: 200px;
   }
@@ -202,10 +196,10 @@ flex-wrap: wrap;
   .facebook-footer {
     width: 300px;
   }
-  .about-flex{
+  .about-flex {
     display: flex;
     flex-direction: column;
-  align-items: center;
+    align-items: center;
   }
 }
 @keyframes example {

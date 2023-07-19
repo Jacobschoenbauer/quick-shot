@@ -22,16 +22,17 @@ export default class Nav extends Component {
         <div className="logo">{logo}</div>
         <section className="navgate">
           <div className="nav">
-            <Link className="home" to="/">
-              Home
-            </Link>
-            <Link className="about" to="/about">
-              About
-            </Link>
-            <Link className="contact" to="/contact">
-              Contact
-            </Link>
-
+            <div>
+              <Link className="home" to="/">
+                Home
+              </Link>
+              <Link className="about" to="/about">
+                About
+              </Link>
+              <Link className="contact" to="/contact">
+                Contact
+              </Link>
+            </div>
             <div className="num">
               <a className="phone" href="tel:651-500-1758">
                 {telephone}
