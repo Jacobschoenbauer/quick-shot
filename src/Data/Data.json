@@ -16,15 +16,15 @@
 "product":{
    "product1": "Lawn Mowing",
    "product1Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/philipmowinglawn.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/mowerlawn.jpg"}
      ],
    "product2":"Bush Trimming ",
    "product2Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/philipyardclean.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/bushlawn.jpg"}
      ],
    "product3":"Spring and Fall Clean up ",
    "product3Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/philipcleaning.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/toolslawn.jpg"}
      ],
    "product4":"Snowplowing ",
    "product4Photo":[
@@ -32,11 +32,11 @@
      ],
    "product5":"Sidewalk Shoveling",
    "product5Photo":[
-      {"alt":"Shovels sidewalk","src":"./pic/philipshoveling.jpg"}
+      {"alt":"Shovels sidewalk","src":"./pic/snowlawn.jpg"}
      ],
    "product6":"Sidewalk and Driveway Salting",
    "product6Photo":[
-      {"alt":"Salting","src":"./pic/philipsaltlaying.jpg"}
+      {"alt":"Salting","src":"./pic/saltlawn.jpg"}
      ]
 },
 "images":[
