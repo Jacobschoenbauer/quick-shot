@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main {
+    background-color: #62af2c;
+  }
+  
+  .mtitle {
+    color: #c5d1bc;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 80px;
+    font-size: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .navbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #323b2c;
+  }
+  .navgate {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .home,
+  .about,
+  .location,
+  .about,
+  .specials,
+  .num,
+  .contact {
+    margin: 15px;
+    font-size: 20px;
+    color: #fbee0f;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .phone,
+  .email {
+    color: #fbee0f !important;
+  }
+  
+  .header-images {
+    width: 1500px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .fpics {
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .faceBook {
+    border-radius: 50%;
+    width: 60%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .facebook-footer {
+    text-align: center;
+    width: 15%;
+  }
+  .num {
+    display: flex;
+  }
+  .home-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slogan {
+    color: #c5d1bc;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 2px #323b2c;
+    margin: 0;
+  }
+  
+  .home-image {
+    margin: 30px;
+  }
+  .home-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15%;
+    font-size: 50px;
+    color: #c5d1bc;
+    text-shadow: 2px 2px #323b2c;
+  }
+  .home-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service {
+    margin: 20px;
+  }
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-image {
+    height: 200px;
+  }
+  .intro-contact {
+    color: #c5d1bc;
+    text-shadow: 2px 2px #323b2c;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact-phone,.contact-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .about-flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .about-story {
+    height: 100%;
+    width: 300px;
+    font-size: 20px;
+    background-color: #323b2c;
+    color: #c5d1bc;
+    padding: 2%;
+    margin: 0px;
+  }
+  .aboutPhoto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .about-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .aboutProduct {
+    color: #c5d1bc;
+    text-shadow: 2px 2px #323b2c;
+    font-size: 20px;
+  }
+  .about-photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /*media to change for differnt screens*/
+  @media screen and (max-width: 1000px) {
+    .slogan {
+      font-size: 200%;
+    }
+    .service {
+      text-align: center;
+      font-size: 30px;
+    }
+    .home-product {
+      margin: 18%;
+    }
+    .navbox {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navgate {
+      display: flex;
+    }
+    .mtitle {
+      display: none;
+    }
+    .nav{
+      flex-direction: column;
+    }
+    .logo {
+      width: 200px;
+    }
+    .home-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .facebook-footer {
+      width: 300px;
+    }
+    .about-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @keyframes example {
+    0% {
+      background-color: #c5d1bc;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: #323b2c;
+      left: 200px;
+      top: 0px;
+    }
+    50% {
+      background-color: black;
+      left: 200px;
+      top: 200px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: 200px;
+    }
+    100% {
+      background-color: #fbee0f;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  .home-image {
+    border-radius: 20%;
+    margin: 10px;
+    background-color: #323b2c;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+  

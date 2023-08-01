@@ -4,23 +4,26 @@ import React from "react";
 // npx create-react-app (Name of project)
 //npm install react-router-dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Component/Header";
+
 import Nav from "./Component/Nav";
 import Footer from "./Component/Footer";
-import Home from "./pages/Home";
+
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-
+import ServiceOne from "./pages/ServiceOne";
+import ServiceTwo from "./pages/ServiceTwo";
 function App() {
   return (
     <div className="main">
       <Router>
         <Nav />
-        <Header />
+        
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          
+          <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/serviceOne" element={<ServiceOne />} />
+          <Route path="/ServiceTwo" element={<ServiceTwo/>} />
         </Routes>
       </Router>
       <Footer />

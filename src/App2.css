@@ -1,0 +1,232 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-color: #5d625a;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.nav-all {
+  display: flex;
+  background-color: #323b2c;
+  justify-content: space-evenly;
+}
+.navbox {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  align-items: center;
+}
+.navgate {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.service,
+.location,
+.service,
+.specials,
+.num,
+.about,
+.contact {
+  margin: 15px;
+  font-size: 20px;
+  color:  #c5d1bc;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.phone,
+.email {
+  color: #fbee0f !important;
+  margin: 0px 15px;
+}
+
+.header-images {
+   height: 400px;
+  width: 800px;
+  object-fit: cover; 
+  
+}
+.logo-box{
+ 
+}
+.logo {
+  
+  border-radius: 50%;
+ 
+}
+.faceBook {
+  border-radius: 50%;
+  width: 60%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.facebook-footer {
+  text-align: center;
+  width: 15%;
+}
+.num {
+  display: flex;
+}
+
+.slogan {
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+}
+
+
+
+
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-image {
+  height: 200px;
+}
+.intro-contact {
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  font-size: 30px;
+  text-align: center;
+}
+.contact-phone,
+.contact-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.service-story {
+  height: 100%;
+  width: 300px;
+  font-size: 20px;
+  background-color: #323b2c;
+  color: #c5d1bc;
+  padding: 2%;
+  margin: 0px;
+}
+.servicePhoto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.service-product {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.serviceProduct {
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  font-size: 20px;
+}
+.service-photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/*media to change for differnt screens*/
+@media screen and (max-width: 1000px) {
+  .service {
+    text-align: center;
+    font-size: 30px;
+  }
+  .home-product {
+    margin: 18%;
+  }
+  .navbox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navgate {
+    display: flex;
+  }
+  .mtitle {
+    display: none;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .logo {
+    width: 200px;
+  }
+  .home-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .facebook-footer {
+    width: 300px;
+  }
+  .service-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@keyframes example {
+  0% {
+    background-color: #c5d1bc;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #323b2c;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: black;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: #fbee0f;
+    left: 0px;
+    top: 0px;
+  }
+}
+.home-image {
+  border-radius: 20%;
+  margin: 10px;
+  background-color: #323b2c;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}

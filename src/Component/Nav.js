@@ -7,39 +7,52 @@ const logo = data.logo.map(({ alt, src }) => (
     <img className="logo" src={src} alt={alt} />
   </div>
 ));
+const images = data.images.map(({ alt, src }) => (
+  <div>
+    <img className="header-images" src={src} alt={alt} />
+  </div>
+));
 
 export default class Nav extends Component {
   render() {
     const {
-      about: { title, telephone },
+      about: { telephone, slogan, serviceOne, serviceTwo },
     } = data;
 
     return (
-      <div className="navbox">
-        <h1 className="mtitle">
-          <div>{title}</div>
-        </h1>
-        <div className="logo">{logo}</div>
-        <section className="navgate">
-          <div className="nav">
-            <div>
-              <Link className="home" to="/">
-                Home
-              </Link>
-              <Link className="about" to="/about">
-                About
-              </Link>
-              <Link className="contact" to="/contact">
-                Contact
-              </Link>
+      <div className="nav-all">
+        <div className="logo-box">
+          <div className="logo">{logo}</div>
+        </div>
+        <div className="navbox">
+          <section className="navgate">
+            <div className="nav">
+              <div>
+                <Link className="about" to="/">
+                  About
+                </Link>
+                <Link className="service" to="/ServiceOne">
+                  {serviceOne}
+                </Link>
+                <Link className="service" to="/ServiceTwo">
+                  {serviceTwo}
+                </Link>
+                <Link className="contact" to="/contact">
+                  Contact
+                </Link>
+              </div>
+              <div className="num">
+                <div>Call</div>
+                <a className="phone" href="tel:651-500-1758">
+                  {telephone}
+                </a>
+                <div>for a free estimate</div>
+              </div>
             </div>
-            <div className="num">
-              <a className="phone" href="tel:651-500-1758">
-                {telephone}
-              </a>
-            </div>
-          </div>
-        </section>
+          </section>
+          <div className="fpics">{images}</div>;
+          <div className="slogan">{slogan}</div>
+        </div>
       </div>
     );
   }

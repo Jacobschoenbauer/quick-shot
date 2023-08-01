@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import data from "../Data/Data.json";
+import "../App.css";
 const faceBook = data.faceBook.map(({ alt, src }) => (
   <div>
     <img className="faceBook" src={src} alt={alt} />
