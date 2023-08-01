@@ -1,34 +1,43 @@
 body {
-    margin: 0px;
-    padding: 0px;
-  }
-  html {
-    margin: 0px;
-    padding: 0px;
-  }
-  .main {
-    background-color: #5d625a;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-  }
-  .logo {
-    height: 75%;
-    width: 75%;
-    border-radius: 50%;
-
-   
-  }
-  .logo-box{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
-  .nav-all{
-    display: flex;
-  }
-
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-color: #5d625a;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+}
+.logo-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 4% 0% 0% 0%;
+}
+.nav-all {
+  display: flex;
+}
+.navgate {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.num {
+  display: flex;
+}
 
 .faceBook {
   border-radius: 50%;
@@ -37,7 +46,6 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  
 }
 .facebook-footer {
   text-align: center;
