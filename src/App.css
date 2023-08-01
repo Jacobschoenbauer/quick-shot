@@ -13,6 +13,22 @@ body {
     flex-wrap: wrap;
     
   }
+  .logo {
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+
+   
+  }
+  .logo-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  .nav-all{
+    display: flex;
+  }
+
 
 .faceBook {
   border-radius: 50%;
@@ -21,6 +37,7 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  
 }
 .facebook-footer {
   text-align: center;
