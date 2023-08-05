@@ -26,31 +26,37 @@ export default class Nav extends Component {
         </div>
         <div className="navbox">
           <section className="navgate">
-            <div className="nav">
+            <div className="navSearch">
               <div>
-                <Link className="about" to="/">
+                <Link className="about navFont" to="/">
                   About
                 </Link>
-                <Link className="service" to="/ServiceOne">
+              </div>
+              <div>
+                <Link className="service navFont" to="/ServiceOne">
                   {serviceOne}
                 </Link>
-                <Link className="service" to="/ServiceTwo">
+              </div>
+              <div>
+                <Link className="service navFont" to="/ServiceTwo">
                   {serviceTwo}
                 </Link>
-                <Link className="contact" to="/contact">
+              </div>
+              <div>
+                <Link className="contact navFont" to="/contact">
                   Contact
                 </Link>
               </div>
-              <div className="num">
+            </div>
+            <div className="num ">
                 <div>Call</div>
-                <a className="phone" href="tel:651-500-1758">
+                <a className="phone " href="tel:651-500-1758">
                   {telephone}
                 </a>
                 <div>for a free estimate</div>
               </div>
-            </div>
           </section>
-          <div className="fpics">{images}</div>;
+          <div className="fpics">{images}</div>
           <div className="slogan">{slogan}</div>
         </div>
       </div>

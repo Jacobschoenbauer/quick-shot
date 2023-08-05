@@ -8,9 +8,6 @@ html {
 }
 .main {
   background-color: #5d625a;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 .logo {
   height: 75%;
@@ -23,20 +20,61 @@ html {
   text-align: center;
   margin: 4% 0% 0% 0%;
 }
+.header-images {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
 .nav-all {
-  display: flex;
+  background-color: #1a1c19;
+  display: grid;
+  grid-template-columns: 25% 65% auto;
+}
+.navbox {
+  text-align: center;
 }
 .navgate {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .nav {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+.navFont {
+  color: #c5d1bc;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px #323b2c;
+  text-decoration: none;
+}
+.navSearch {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 25px;
+}
 .num {
   display: flex;
+  color: #c5d1bc;
+  text-decoration: none;
+  align-items: center;
+  font-size: 100%;
+  margin: 10px;
+}
+.phone{
+  color: #c5d1bc !important;
+  margin: 3px;
+}
+.slogan {
+  color: #c5d1bc;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px #323b2c;
+  margin: 0;
 }
 
 .faceBook {
