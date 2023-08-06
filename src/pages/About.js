@@ -6,27 +6,77 @@ const homeImage = data.homeImage.map(({ alt, src }) => (
     <img className="aboutMain" src={src} alt={alt} />
   </div>
 ));
+const iconOne = data.iconOne.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
+const iconTwo = data.iconTwo.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
+const iconThree = data.iconThree.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
+const iconFour = data.iconFour.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
+const iconFive = data.iconFive.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
+const iconSix = data.iconSix.map(({ alt, src }) => (
+  <div>
+    <img className="iconAbout" src={src} alt={alt} />
+  </div>
+));
 
 export default class About extends Component {
   render() {
     const {
       about: { about },
-      product:{product1, product2, product3, product4, product5, product6}
+      product: { product1, product2, product3, product4, product5, product6 },
     } = data;
 
     return (
       <div>
         <article className="about-flex">
           <section className="about-product">
-            <div className="about-work">{product1}</div>
-            <div className="about-work">{product2}</div>
-            <div className="about-work">{product3}</div>
-            <div className="about-work">{product4}</div>
-            <div className="about-work">{product5}</div>
-            <div className="about-work">{product6}</div>
+            <section className="serviceOne  aboutService">
+              <div className="iconCss">{iconOne}</div>
+              <div className="about-work">{product1}</div>
+            </section>
+            <section className="serviceTwo aboutService">
+              <div className="iconCss">{iconTwo}</div>
+              <div className="about-work">{product2}</div>
+            </section>
+            <section className="serviceThree aboutService">
+              <div className="iconCss">{iconThree}</div>
+              <div className="about-work">{product3}</div>
+            </section>
+            <section className="serviceFour aboutService">
+              <div className="iconCss">{iconFour}</div>
+              <div className="about-work">{product4}</div>
+            </section>
+            <section className="serviceFive aboutService">
+              <div className="iconCss">{iconFive}</div>
+              <div className="about-work">{product5}</div>
+            </section>
+            <section className="serviceSix aboutService">
+              <div className="iconCss">{iconSix}</div>
+              <div className="about-work">{product6}</div>
+            </section>
           </section>
-          <section className="about-story">{about}</section>
-          <section className="about-photo">{homeImage} </section>
+          <div className="mainAbout">
+            <section className="about-story">{about}</section>
+            <section className="about-photo">{homeImage} </section>
+          </div>
         </article>
       </div>
     );

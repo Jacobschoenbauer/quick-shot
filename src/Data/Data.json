@@ -63,6 +63,25 @@
 "faceBook":[
     {"alt":"Great Facebook","src":"./pic/facebook-logo.png"}
    ],
+"iconOne":[
+      {"alt":"Amazing Lawn Mowing","src":"./pic/icons8-lawn-58.png"}
+   ],
+"iconTwo":[
+      {"alt":"Bush Trimming","src":"./pic/icons8-bush-100.png"}
+   ],
+"iconThree":[
+      {"alt":"Yard Clean up","src":"./pic/icons8-janitor-48.png"}
+   ],
+"iconFour":[
+      {"alt":"Great Snow Plowing","src":"./pic/icons8-snow-plow-48.png"}
+   ],
+"iconFive":[
+      {"alt":"Best Shoveling You can Have","src":"./pic/icons8-shoveling-snow-78.png"}
+   ],
+"iconSix":[
+      {"alt":"Best Salting in Hugo","src":"./pic/icons8-salting-50.png"}
+   ],
+   
 "emailLogo":[
       {"alt":"Great Lawn care","src":"./pic/emaillogo3.avif"}
      ],

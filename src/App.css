@@ -62,8 +62,8 @@ html {
   color: #c5d1bc;
   text-decoration: none;
   align-items: center;
-  font-size: 100%;
-  margin: 10px;
+  font-size: 150%;
+  margin: 12px;
 }
 .phone{
   color: #c5d1bc !important;
@@ -75,6 +75,37 @@ html {
   text-align: center;
   text-shadow: 2px 2px #323b2c;
   margin: 0;
+}
+.iconAbout{
+  height: 70px;
+  width: 70px;
+}
+.about-product{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.mainAbout{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-story {
+  height: 100%;
+  width: 300px;
+  font-size: 20px;
+  background-color: #323b2c;
+  color: #c5d1bc;
+  padding: 2%;
+  margin: 0px;
+}
+
+.iconCss{
+  text-align: end;
+}
+.aboutService{
+  display: flex;
+  align-items: center;
 }
 
 .faceBook {
