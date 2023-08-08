@@ -7,9 +7,6 @@ html {
   margin: 0px;
   padding: 0px;
 }
-
-  
-
 .logo {
   height: 75%;
   width: 75%;
@@ -80,6 +77,7 @@ html {
 .iconAbout {
   height: 70px;
   width: 70px;
+  
 }
 .about-product {
   display: flex;
@@ -88,6 +86,7 @@ html {
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
   background-color: #5d625a;
+  padding: 20px;
 }
 .about-service {
   display: flex;
@@ -96,6 +95,10 @@ html {
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
   
+  
+}
+.about-work{
+  font-size: 25px;
 }
 .mainAbout {
   display: flex;
@@ -109,11 +112,15 @@ html {
   width: 60%;
   margin: 10px;
   padding: 20px;
-
 }
 
 .iconCss {
-  text-align: end;
+  text-align: center;
+  background-color: #485a3e;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+
 }
 .aboutService {
   display: flex;

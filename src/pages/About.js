@@ -49,27 +49,27 @@ export default class About extends Component {
         <article className="about-flex">
           <section className="about-product">
             <section className="serviceOne  aboutService">
-              <div className="iconCss">{iconOne}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product1}</div>
             </section>
             <section className="serviceTwo aboutService">
-              <div className="iconCss">{iconTwo}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product2}</div>
             </section>
             <section className="serviceThree aboutService">
-              <div className="iconCss">{iconThree}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product3}</div>
             </section>
             <section className="serviceFour aboutService">
-              <div className="iconCss">{iconFour}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product4}</div>
             </section>
             <section className="serviceFive aboutService">
-              <div className="iconCss">{iconFive}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product5}</div>
             </section>
             <section className="serviceSix aboutService">
-              <div className="iconCss">{iconSix}</div>
+              <div className="iconCss">{}</div>
               <div className="about-work">{product6}</div>
             </section>
           </section>
