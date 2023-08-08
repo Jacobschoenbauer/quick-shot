@@ -1,14 +1,15 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-image: url("../public/pic/pexels-colys-hat-1587548.jpg");
 }
 html {
   margin: 0px;
   padding: 0px;
 }
-.main {
-  background-color: #5d625a;
-}
+
+  
+
 .logo {
   height: 75%;
   width: 75%;
@@ -65,7 +66,7 @@ html {
   font-size: 150%;
   margin: 12px;
 }
-.phone{
+.phone {
   color: #c5d1bc !important;
   margin: 3px;
 }
@@ -76,37 +77,94 @@ html {
   text-shadow: 2px 2px #323b2c;
   margin: 0;
 }
-.iconAbout{
+.iconAbout {
   height: 70px;
   width: 70px;
 }
-.about-product{
+.about-product {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  background-color: #5d625a;
 }
-.mainAbout{
+.about-service {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  
+}
+.mainAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about-story {
-  height: 100%;
-  width: 300px;
-  font-size: 20px;
+  font-size: 30px;
   background-color: #323b2c;
   color: #c5d1bc;
-  padding: 2%;
-  margin: 0px;
+  width: 60%;
+  margin: 10px;
+  padding: 20px;
+
 }
 
-.iconCss{
+.iconCss {
   text-align: end;
 }
-.aboutService{
+.aboutService {
   display: flex;
   align-items: center;
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
 }
+.service-flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+}
+
+ 
+  
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-image {
+  height: 200px;
+}
+.intro-contact {
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  font-size: 30px;
+  text-align: center;
+  background-color: #323b2c;
+  width: 60%;
+  margin: 10px;
+  padding: 20px;
+}
+.contact-phone,
+.contact-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-title{
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+  font-size: 30px;
+  text-align: center;
+  background-color: #323b2c;
+  width: 60%;
+  margin: 10px;
+  padding: 20px;}
 
 .faceBook {
   border-radius: 50%;

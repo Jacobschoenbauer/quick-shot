@@ -20,28 +20,31 @@ const product3Photo = data.product.product3Photo.map(({ alt, src }) => (
 export default class ServiceOne extends Component {
   render() {
     const {
+      about: { about },
       service: { serviceOne },
-      product: { product1, product2, product3},
+      product: { product1, product2, product3 },
     } = data;
 
     return (
       <div>
-        <article className="servive-flex">
-          <section className="service-story">{serviceOne}</section>
-          <section className="service-product">
-            <div className="service-photo-section">
-              <div className="serviveProduct">{product1}</div>
-              <div className="serviveProduct-photo1">{product1Photo}</div>
+        
+        <article className="service-flex about-service ">
+          <section className="service-title">{serviceOne}</section>
+          <section className="about-story">{about}</section>
+          <section className="about-service">
+            
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product1}</div>
+              <div className="aboutProduct-photo4">{product1Photo}</div>
             </div>
-            <div className="service-photo-section">
-              <div className="serviveProduct">{product2}</div>
-              <div className="serviveProduct-photo2">{product2Photo}</div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product2}</div>
+              <div className="aboutProduct-photo5">{product2Photo}</div>
             </div>
-            <div className="service-photo-section">
-              <div className="serviveProduct">{product3}</div>
-              <div className="serviveProduct-photo3">{product3Photo}</div>
+            <div className="about-photo-section">
+              <div className="aboutProduct">{product3}</div>
+              <div className="aboutProduct-photo6">{product3Photo}</div>
             </div>
-           
           </section>
         </article>
       </div>

@@ -20,13 +20,15 @@ const product6Photo = data.product.product6Photo.map(({ alt, src }) => (
 export default class About extends Component {
   render() {
     const {
+      service:{serviceTwo},
       about: { about },
       product: {product4, product5, product6 },
     } = data;
 
     return (
       <div>
-        <article className="service-flex">
+        <article className="service-flex about-product ">
+          <section className="service-title">{serviceTwo}</section>
           <section className="about-story">{about}</section>
           <section className="about-product">
             
