@@ -1,12 +1,10 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url("../public/pic/pexels-colys-hat-1587548.jpg");
+  background-image: url("../public/pic/grass.jpg");
 }
-html {
-  margin: 0px;
-  padding: 0px;
-}
+
+
 .logo {
   height: 75%;
   width: 75%;
@@ -85,16 +83,18 @@ html {
   flex-wrap: wrap;
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
-  background-color: #5d625a;
   padding: 20px;
+  background-color: #5d625a;
+}
+.service-two-background{
+  background-color: #5d625a;
 }
 .about-service {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
-  
+  flex-direction: column;
   
 }
 .about-work{
@@ -109,9 +109,10 @@ html {
   font-size: 30px;
   background-color: #323b2c;
   color: #c5d1bc;
-  width: 60%;
   margin: 10px;
   padding: 20px;
+  height: 50%;
+  width: 50%;
 }
 
 .iconCss {
@@ -128,7 +129,12 @@ html {
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
 }
-.service-flex{
+.service-flex-one{
+  display: flex;
+  color: #c5d1bc;
+  text-shadow: 2px 2px #323b2c;
+}
+.service-flex-two{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -136,8 +142,7 @@ html {
   text-shadow: 2px 2px #323b2c;
 }
 
- 
-  
+
 
 .contact-flex {
   display: flex;
@@ -164,14 +169,17 @@ html {
   align-items: center;
 }
 .service-title{
+  display: flex;
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
   font-size: 30px;
   text-align: center;
   background-color: #323b2c;
-  width: 60%;
+  justify-content: center;
   margin: 10px;
-  padding: 20px;}
+  padding: 20px;
+  
+}
 
 .faceBook {
   border-radius: 50%;
