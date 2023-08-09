@@ -1,10 +1,9 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url("../public/pic/grass.jpg");
+  background-image: url("../public/pic/grass3.jpg");
+  
 }
-
-
 .logo {
   height: 75%;
   width: 75%;
@@ -133,6 +132,7 @@ body {
   display: flex;
   color: #c5d1bc;
   text-shadow: 2px 2px #323b2c;
+  justify-content: center;
 }
 .service-flex-two{
   display: flex;
