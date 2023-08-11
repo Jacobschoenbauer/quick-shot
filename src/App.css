@@ -171,6 +171,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #c5d1bc;
+  font-size: 100%;
 }
 
 .faceBook {
@@ -191,8 +193,22 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .navgate{
+  .logo{
+    height: 50%;
+    width: 50%;
+  }
+  .navFont{
+    font-size: 150%;
 
+  }
+  .num{
+    font-size: 20px;
+  }
+  .about-story{
+    font-size: 100%;
+  }
+  .intro-contact{
+    font-size: 100%;
   }
 
   
