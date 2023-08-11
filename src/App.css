@@ -126,23 +126,27 @@ body {
   background-color: #323b2c;
   color: #c5d1bc;
   padding: 2%;
-  margin: 0 0 0 0;
   text-align: center;
 }
-
-.service-one-about{
-  font-size: 30px;
+.service-one-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.service-one-about {
+  font-size: 25px;
   background-color: #323b2c;
   color: #c5d1bc;
-  padding: 2%;
+  padding: 30px;
+  height: 100%;
+  width: 300px;
+}
 
-}
-.service-one-flex{
-  display: flex;
-}
-.aboutPhoto{
-  height: 20%;
-  width: 20%;
+.aboutPhoto {
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+  
 }
 
 .contact-flex {

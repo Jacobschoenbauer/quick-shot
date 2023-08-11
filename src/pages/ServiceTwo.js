@@ -28,8 +28,7 @@ export default class About extends Component {
     return (
       <div className="service-two-background">
         <section className="service-two-title">{serviceTwo}</section>
-        <article className="">
-          <section className="">{about}</section>
+        <article className="service-one-main">
           <section className="">
             <div className="">
               <div className="">{product4}</div>
@@ -44,6 +43,7 @@ export default class About extends Component {
               <div className="">{product6Photo}</div>
             </div>
           </section>
+          <section className="service-one-about">{about}</section>
         </article>
       </div>
     );
