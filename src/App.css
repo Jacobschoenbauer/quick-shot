@@ -185,3 +185,15 @@ body {
   text-align: center;
   width: 15%;
 }
+ /*media to change for differnt screens*/
+ @media screen and (max-width: 1000px) {
+  .nav-all{
+    display: flex;
+    flex-direction: column;
+  }
+  .navgate{
+
+  }
+
+  
+}

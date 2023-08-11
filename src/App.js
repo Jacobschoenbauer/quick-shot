@@ -7,9 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Nav from "./Component/Nav";
 import Footer from "./Component/Footer";
-
 import About from "./pages/About";
-import Contact from "./Component/Contact";
+import Contact from "./pages/Contact";
 import ServiceOne from "./pages/ServiceOne";
 import ServiceTwo from "./pages/ServiceTwo";
 function App() {
