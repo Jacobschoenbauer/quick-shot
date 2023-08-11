@@ -21,7 +21,7 @@ export default class About extends Component {
   render() {
     const {
       service: { serviceTwo },
-      about: { about },
+      about: { aboutServiceTwo },
       product: { product4, product5, product6 },
     } = data;
 
@@ -43,7 +43,7 @@ export default class About extends Component {
               <div className="">{product6Photo}</div>
             </div>
           </section>
-          <section className="service-one-about">{about}</section>
+          <section className="service-one-about">{aboutServiceTwo}</section>
         </article>
       </div>
     );

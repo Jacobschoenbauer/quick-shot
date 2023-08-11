@@ -148,6 +148,9 @@ body {
   object-fit: cover;
   
 }
+.product-flex{
+  text-align: center;
+}
 
 .contact-flex {
   display: flex;
@@ -206,6 +209,9 @@ body {
   }
   .about-story{
     font-size: 100%;
+    height: 100%;
+  width: 100%;
+  margin: 0;
   }
   .intro-contact{
     font-size: 100%;
@@ -220,6 +226,11 @@ body {
 .aboutMain{
   height: 75%;
   width: 75%;
+}
+.service-one-flex{
+  display: flex;
+  flex-direction: column;
+
 }
 
   

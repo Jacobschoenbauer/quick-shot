@@ -20,18 +20,18 @@ const product3Photo = data.product.product3Photo.map(({ alt, src }) => (
 export default class ServiceOne extends Component {
   render() {
     const {
-      about: { about },
+      about: { aboutServiceOne },
       service: { serviceOne },
       product: { product1, product2, product3 },
     } = data;
 
     return (
       <div>
-        <section className="service-one-title"><div>{serviceOne}</div></section>
+        <section className="service-one-title">
+          <div>{serviceOne}</div>
+        </section>
         <article className="service-one-main">
-          <section className="">
-            <div className="service-one-about">{about}</div>
-          </section>
+          <section className="service-one-about">{aboutServiceOne}</section>
           <section className="service-one-flex">
             <div className="product-flex">
               <div className="productOne">{product1}</div>
@@ -39,7 +39,7 @@ export default class ServiceOne extends Component {
             </div>
             <div className="product-flex">
               <div className="">{product2}</div>
-              <div >{product2Photo}</div>
+              <div>{product2Photo}</div>
             </div>
             <div className="product-flex">
               <div className="">{product3}</div>
