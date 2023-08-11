@@ -213,6 +213,14 @@ body {
   .service-one-about{
     font-size: 100%;
   }
+.aboutPhoto{
+  height: 50%;
+  width: 50%;
+}
+.aboutMain{
+  height: 75%;
+  width: 75%;
+}
 
   
 }
