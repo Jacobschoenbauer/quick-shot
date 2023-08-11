@@ -146,9 +146,8 @@ body {
   height: 300px;
   width: 220px;
   object-fit: cover;
-  
 }
-.product-flex{
+.product-flex {
   text-align: center;
 }
 
@@ -190,48 +189,45 @@ body {
   text-align: center;
   width: 15%;
 }
- /*media to change for differnt screens*/
- @media screen and (max-width: 1000px) {
-  .nav-all{
+/*media to change for differnt screens*/
+@media screen and (max-width: 1000px) {
+  .nav-all {
     display: flex;
     flex-direction: column;
   }
-  .logo{
+  .logo {
     height: 50%;
     width: 50%;
   }
-  .navFont{
+  .navFont {
     font-size: 150%;
-
   }
-  .num{
+  .num {
     font-size: 20px;
   }
-  .about-story{
+  .about-story {
     font-size: 100%;
-    height: 100%;
-  width: 100%;
-  margin: 0;
+    height: auto;
+    width: auto;
+    margin: 0;
   }
-  .intro-contact{
-    font-size: 100%;
-  }
-  .service-one-about{
+  .intro-contact {
     font-size: 100%;
   }
-.aboutPhoto{
-  height: 50%;
-  width: 50%;
-}
-.aboutMain{
-  height: 75%;
-  width: 75%;
-}
-.service-one-flex{
-  display: flex;
-  flex-direction: column;
-
-}
-
-  
+  .service-one-about {
+    font-size: 100%;
+  }
+  .aboutPhoto {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+  }
+  .aboutMain {
+    height: 75%;
+    width: 75%;
+  }
+  .service-one-flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
