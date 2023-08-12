@@ -214,7 +214,7 @@ body {
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
-  .header-images {
+  .header-images .img.Sirv.image-hover{
     height: 200px;
   }
   .nav-all {
@@ -256,4 +256,5 @@ body {
     display: flex;
     flex-direction: column;
   }
+ 
 }
