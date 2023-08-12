@@ -3,7 +3,7 @@
     "about": {
         "title": "",
         "telephone": "",
-        "slogan": "",
+        "slogan": "We love to code",
         "email": "",
         "facebook": "",
         "introContact":"",
@@ -11,8 +11,8 @@
         "instagram": ""
     },
     "service":{
-      "serviceOne":"Lawn Care",
-      "serviceTwo":"Snow Removal"
+      "serviceOne":"work",
+      "serviceTwo":"fun"
    },
     
     
@@ -56,7 +56,7 @@
      {"alt":"","src":""}
     ],
 "iconOne":[
-      {"alt":"Amazing Lawn Mowing","src":"./pic/icons8-lawn-58.png"}
+      {"alt":"","src":""}
    ],
 "iconTwo":[
       {"alt":"Bush Trimming","src":"./pic/icons8-bush-100.png"}

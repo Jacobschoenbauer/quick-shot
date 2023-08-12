@@ -41,7 +41,7 @@ body {
 }
 
 .nav-all {
-  background-color: #0f1a0a;
+  background-color: rgb(53, 53, 60);
   display: grid;
   grid-template-columns: 25% 65% auto;
 }
