@@ -222,11 +222,12 @@ body {
     flex-direction: column;
   }
   .logo {
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 80%;
   }
+
   .navFont {
-    font-size: 150%;
+    font-size: 100%;
   }
   .num {
     font-size: 20px;
