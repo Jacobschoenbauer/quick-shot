@@ -30,17 +30,17 @@ export default class About extends Component {
         <section className="service-two-title">{serviceTwo}</section>
         <article className="service-one-main">
           <section className="">
-            <div className="">
-              <div className="">{product4}</div>
-              <div className="">{product4Photo}</div>
+            <div className="product-flex">
+              <div className="productTwo">{product4}</div>
+              <div>{product4Photo}</div>
             </div>
-            <div className="">
-              <div className="">{product5}</div>
-              <div className="">{product5Photo}</div>
+            <div className="product-flex">
+              <div className="productTwo">{product5}</div>
+              <div>{product5Photo}</div>
             </div>
-            <div className="">
-              <div className="">{product6}</div>
-              <div className="">{product6Photo}</div>
+            <div className="product-flex">
+              <div className="productTwo">{product6}</div>
+              <div>{product6Photo}</div>
             </div>
           </section>
           <section className="service-one-about">{aboutServiceTwo}</section>

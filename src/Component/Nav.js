@@ -9,7 +9,12 @@ const logo = data.logo.map(({ alt, src }) => (
 ));
 const images = data.images.map(({ alt, src }) => (
   <div>
-    <img className="header-images" src={src} alt={alt} />
+    <img className="Sirv image-hover header-images" src={src} alt={alt} />
+  </div>
+));
+const product4Photo = data.product.product4Photo.map(({ alt, src }) => (
+  <div>
+    <img className=" Sirv image-main header-images" src={src} alt={alt} />
   </div>
 ));
 
@@ -49,14 +54,17 @@ export default class Nav extends Component {
               </div>
             </div>
             <div className="num ">
-                <div>Call</div>
-                <a className="phone " href="tel:651-500-1758">
-                  {telephone}
-                </a>
-                <div>for a free estimate</div>
-              </div>
+              <div>Call</div>
+              <a className="phone " href="tel:651-500-1758">
+                {telephone}
+              </a>
+              <div>for a free estimate</div>
+            </div>
           </section>
-          <div className="fpics">{images}</div>
+          <section className="figure">
+            <div className="">{images}</div>
+            <div className="">{product4Photo}</div>
+          </section>
           <div className="slogan">{slogan}</div>
         </div>
       </div>

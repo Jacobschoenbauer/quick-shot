@@ -19,6 +19,27 @@ body {
   width: 100%;
   object-fit: cover;
 }
+.figure {
+  position: relative;
+}
+.figure img.Sirv.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+
+}
+.figure:hover img.Sirv.image-hover {
+  opacity: 1;
+}
+
 .nav-all {
   background-color: #1a1c19;
   display: grid;
@@ -150,7 +171,9 @@ body {
 .product-flex {
   text-align: center;
 }
-
+.product {
+  color: #c5d1bc;
+}
 .contact-flex {
   display: flex;
   flex-direction: column;
@@ -191,6 +214,9 @@ body {
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
+  .header-images {
+    height: 200px;
+  }
   .nav-all {
     display: flex;
     flex-direction: column;
