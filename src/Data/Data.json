@@ -2,7 +2,6 @@
 
 "about": {
     "title": "Dave's New Look",
-    "description": "Best Place in town ",
     "serviceOne":"Lawn Care",
     "serviceTwo":"Snow Removal",
     "telephone": "651-500-1758",
@@ -48,14 +47,12 @@
 },
 "images":[
    {"alt":"Beautiful Lawn Care in Hugo", "src":"./pic/amazinglawn.JPEG" }
-   
-   
-   
-  
-  
-    
+     
 ],
-"logo":[
+"imagesTwo":[
+   {"alt":"snowremoval", "src":"./pic/snowplowingtruck.png" }
+],
+   "logo":[
  {"alt":"Lawn Mowing","src":"./pic/Dave'snewlook.png"}
 ],
 

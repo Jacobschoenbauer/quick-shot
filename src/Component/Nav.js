@@ -12,7 +12,7 @@ const images = data.images.map(({ alt, src }) => (
     <img className="Sirv image-hover header-images" src={src} alt={alt} />
   </div>
 ));
-const product4Photo = data.product.product4Photo.map(({ alt, src }) => (
+const imagesTwo = data.imagesTwo.map(({ alt, src }) => (
   <div>
     <img className=" Sirv image-main header-images" src={src} alt={alt} />
   </div>
@@ -63,7 +63,7 @@ export default class Nav extends Component {
           </section>
           <section className="figure">
             <div className="">{images}</div>
-            <div className="">{product4Photo}</div>
+            <div className="">{imagesTwo}</div>
           </section>
           <div className="slogan">{slogan}</div>
         </div>
