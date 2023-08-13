@@ -14,7 +14,7 @@ const images = data.images.map(({ alt, src }) => (
 ));
 const imagesTwo = data.imagesTwo.map(({ alt, src }) => (
   <div>
-    <img className=" Sirv image-main header-images" src={src} alt={alt} />
+    <img className="Sirv image-main header-images" src={src} alt={alt} />
   </div>
 ));
 
@@ -62,8 +62,8 @@ export default class Nav extends Component {
             </div>
           </section>
           <section className="figure">
-            <div className="">{images}</div>
-            <div className="">{imagesTwo}</div>
+            <div>{images}</div>
+            <div>{imagesTwo}</div>
           </section>
           <div className="slogan">{slogan}</div>
         </div>

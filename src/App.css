@@ -22,7 +22,7 @@ body {
 .figure {
   position: relative;
 }
-.figure img.Sirv.image-hover {
+.figure .Sirv.image-hover {
   position: absolute;
   top: 0;
   right: 0;
@@ -34,9 +34,8 @@ body {
   height: 400px;
   width: 100%;
   object-fit: cover;
-
 }
-.figure:hover img.Sirv.image-hover {
+.figure:hover .Sirv.image-hover {
   opacity: 1;
 }
 
@@ -214,16 +213,26 @@ body {
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
-  .header-images .img.Sirv.image-hover{
-    height: 200px;
+ 
+  .header-images {
+    height: 25%;
   }
+  .figure .Sirv.image-hover {
+  
+    height: 100%;
+   
+  }
+
   .nav-all {
     display: flex;
     flex-direction: column;
   }
   .logo {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
+  }
+  .about-work {
+    font-size: 100%;
   }
 
   .navFont {
@@ -257,5 +266,4 @@ body {
     display: flex;
     flex-direction: column;
   }
- 
 }
