@@ -34,7 +34,7 @@
      ],
    "product4":"Snowplowing ",
    "product4Photo":[
-      {"alt":"Great Snowplowing","src":"./pic/snowplowingtruck.png"}
+      {"alt":"Great Snowplowing","src":"./pic/snowlawn.jpg"}
      ],
    "product5":"Sidewalk Shoveling",
    "product5Photo":[
@@ -50,7 +50,7 @@
      
 ],
 "imagesTwo":[
-   {"alt":"snowremoval", "src":"./pic/snowplowingtruck.png" }
+   {"alt":"snowremoval", "src":"./pic/snowlawn.jpg" }
 ],
    "logo":[
  {"alt":"Lawn Mowing","src":"./pic/DNL_Grass_Transparent (4).png"}

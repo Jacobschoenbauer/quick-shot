@@ -9,12 +9,12 @@ const logo = data.logo.map(({ alt, src }) => (
 ));
 const images = data.images.map(({ alt, src }) => (
   <div>
-    <img className="Sirv image-hover header-images" src={src} alt={alt} />
+    <img className="Sirv image-main header-images" src={src} alt={alt} />
   </div>
 ));
 const imagesTwo = data.imagesTwo.map(({ alt, src }) => (
   <div>
-    <img className="Sirv image-main header-images" src={src} alt={alt} />
+    <img className="Sirv image-hover header-images" src={src} alt={alt} />
   </div>
 ));
 
