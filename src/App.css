@@ -267,3 +267,10 @@ body {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 1450px) {
+  .about-work{
+    font-size: 100% ;
+
+  }
+  }
+
