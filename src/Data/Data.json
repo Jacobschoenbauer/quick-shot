@@ -22,15 +22,15 @@
 "product":{
    "product1": "Lawn Mowing",
    "product1Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/mowerlawn.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/IMG_5471.jpeg"}
      ],
    "product2":"Bush Trimming ",
    "product2Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/bushlawn.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/IMG_5459.jpeg"}
      ],
    "product3":"Spring and Fall Clean up ",
    "product3Photo":[
-      {"alt":"Lawn Mowing","src":"./pic/toolslawn.jpg"}
+      {"alt":"Lawn Mowing","src":"./pic/IMG_7544.jpg"}
      ],
    "product4":"Snowplowing ",
    "product4Photo":[
