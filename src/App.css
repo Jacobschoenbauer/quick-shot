@@ -254,8 +254,8 @@ body {
     font-size: 100%;
   }
   .aboutPhoto {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     margin: 0;
   }
   .aboutMain {
