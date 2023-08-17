@@ -148,10 +148,10 @@ body {
   padding: 2%;
   text-align: center;
 }
-.service-one-main-back {
- background-color: #74b451;
+/* .service-one-main-back {
+ background-color: #523e27;
   
-}
+} */
 .service-one-main {
   display: flex;
   align-items: center;
