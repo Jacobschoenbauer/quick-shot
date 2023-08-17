@@ -30,7 +30,7 @@ export default class ServiceOne extends Component {
         <section className="service-one-title">
           <div>{serviceOne}</div>
         </section>
-        <article className="service-one-main">
+        <article className="service-one-main service-one-main-back">
           <section className="service-one-about">{aboutServiceOne}</section>
           <section className="service-one-flex">
             <div className="product-flex">
