@@ -43,6 +43,9 @@ body {
   background-color: rgb(49, 55, 62);
   display: grid;
   grid-template-columns: 25% 65% auto;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
 }
 .navbox {
   text-align: center;
